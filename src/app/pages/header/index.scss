@@ -1,0 +1,20 @@
+:root {
+  --color-form: 255,255,255;
+  --background-rgb-form: 28,28,28, 0.8;
+  --background-form: #000;
+}
+$background-form: #000;
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-rgb-form: 255, 255, 255, 0.9;
+    --background-form: #fff;
+  } 
+
+}
+
+.form-class{
+  background-color: rgba(var(--background-rgb-form));
+  color: #000;
+  padding: 2rem 4rem;
+}
