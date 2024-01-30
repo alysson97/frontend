@@ -33,7 +33,7 @@ export default function Button({ usuario }: { usuario: Usuario }) {
           e.preventDefault();
           handleCreateItem(usuario);
         }}
-        className="px-4 py-2 bg-blue-500 text-white mr-2"
+        className="px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white mr-2"
       >
         Adicionar
       </button>

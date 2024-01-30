@@ -45,7 +45,7 @@ export default function Button({usuario}: {usuario: Usuario}) {
           handleUpdateItem(usuario.id);
           }
         }
-        className="px-2 py-1 bg-gray-500 text-white mr-2 rounded"
+        className="px-2 py-1 bg-blue-500 hover:bg-blue-600 text-white mr-2 rounded"
       >
         <i className="fas fa-pencil-alt"></i>
         Editar

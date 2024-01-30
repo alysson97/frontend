@@ -41,7 +41,7 @@ export default function Page({data}: any) {
       <div className="flex w-100 justify-end">
       <button
         onClick={() => handleAddClick()}
-        className="px-2 py-1 bg-blue-500 text-white mr-2 rounded-xl mb-6"
+        className="px-2 py-1 bg-blue-500 hover:bg-blue-600 text-white mr-2 rounded-xl mb-6"
       >Adcionar
       </button>
       </div>

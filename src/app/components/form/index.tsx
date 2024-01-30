@@ -64,7 +64,10 @@ const Form = ({ mode, onSubmit, initialData, onClose, data }:any) => {
   return (
     <>
       <div className={ "mb-8 form-class rounded"}>
-        <button onClick={() => {setShowForm(false)}}>X</button>
+        <div className="button-container flex w-100 justify-end m-3 mt-0">
+          <button className='x-button' onClick={() => {onClose()}}>X</button>
+        </div>
+        
         <form>
         
           <div className="flex mb-4">
